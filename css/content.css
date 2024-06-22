@@ -1,0 +1,24 @@
+/* When the screen is wider that 500px
+   Switch to a two-column layout*/
+
+.content>.top,
+.content>.bottom {
+    padding: 4rem;
+
+}
+
+.content p::first-letter {
+    font-size: 3em;
+}
+
+@media (min-width: 780px) {
+    .top {
+        width: 50%;
+        float: left;
+    }
+
+    .bottom {
+        width: 50%;
+        float: left;
+    }
+}
