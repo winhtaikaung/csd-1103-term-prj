@@ -1,9 +1,12 @@
 /* When the screen is wider that 500px
    Switch to a two-column layout*/
 
-.content>.top,
-.content>.bottom {
-    padding: 4rem;
+.content>.top-left,
+.content>.top-right,
+.content>.bottom-left,
+.content>.bottom-right {
+    padding: 2rem;
+    min-height: 400px;
 
 }
 
@@ -12,13 +15,30 @@
 }
 
 @media (min-width: 780px) {
-    .top {
+    .top-left {
         width: 50%;
         float: left;
     }
 
-    .bottom {
+    .bottom-left {
         width: 50%;
         float: left;
     }
+
+    .top-right {
+        width: 50%;
+        float: right;
+    }
+
+    .bottom-right {
+        width: 50%;
+        float: right;
+    }
+
+}
+
+.callout .inner {
+    min-height: 200px;
+    text-align: center;
+    font-size: 2.5em;
 }
