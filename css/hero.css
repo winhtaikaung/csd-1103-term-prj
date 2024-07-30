@@ -12,6 +12,13 @@
     background-attachment: fixed;
 }
 
+#menuhero {
+    background: url(https://images.unsplash.com/photo-1634221094531-8fbd42e422d8?q=80&w=3774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
 .hero,
 .content {
     text-align: center;

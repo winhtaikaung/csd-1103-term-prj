@@ -37,8 +37,12 @@
 
 }
 
+.callout {
+    margin: 2rem 0;
+}
+
 .callout .inner {
-    min-height: 200px;
+    min-height: 3rem;
     text-align: center;
     font-size: 2.5em;
 }
